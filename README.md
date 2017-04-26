@@ -4,7 +4,7 @@ A minimalistic Java client for the Consul Key/Value HTTP API
 [Consul](https://www.consul.io) is fantastic. 
 One nice feature of Consul is it's Key/Value store that is exposed with an [HTTP API](https://www.consul.io/api/kv.html).
 
-This consul-kv-jaxrs client exposes only the Key/Value features of Consul via a JAX-RS client.
+This consul-kv-jaxrs client exposes _only_ the Key/Value features of Consul via a JAX-RS client.
 If you need access to the full functionality of the Consul HTTP API, this library is _not_ for you. 
 There are already several Java Consul clients.  Here are two:
                                                                                                
