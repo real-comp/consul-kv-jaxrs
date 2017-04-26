@@ -45,6 +45,6 @@ Any unexpected response is packaged as an IOException.
 <dependency>
     <groupId>com.real-comp</groupId>
     <artifactId>consul-kv-jaxrs</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
 </dependency>
 ```
