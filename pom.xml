@@ -4,7 +4,7 @@
     <groupId>com.real-comp</groupId>
     <artifactId>consul-kv-jaxrs</artifactId>
     <packaging>jar</packaging>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>consul-kv-jaxrs</name>
     <description>Data transformation tool</description>
     <url>https://github.com/real-comp/consul-kv-jaxrs</url>
@@ -31,7 +31,7 @@
         <connection>scm:git:git@github.com:real-comp/consul-kv-jaxrs.git</connection>
         <developerConnection>scm:git:git@github.com:real-comp/consul-kv-jaxrs.git</developerConnection>
         <url>git@github.com:real-comp/consul-kv-jaxrs.git</url>
-        <tag>consul-kv-jaxrs-0.0.2</tag>
+        <tag>HEAD</tag>
     </scm>
     <distributionManagement>
         <snapshotRepository>
