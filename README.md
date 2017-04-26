@@ -1,5 +1,5 @@
 # consul-kv-jaxrs
-A minimalistic Java client for the Consul key/value API
+A minimalistic Java client for the Consul Key/Value HTTP API
 
 [Consul](https://www.consul.io) is fantastic. 
 One nice feature of Consul is it's Key/Value store that is exposed with an [HTTP API](https://www.consul.io/api/kv.html).
