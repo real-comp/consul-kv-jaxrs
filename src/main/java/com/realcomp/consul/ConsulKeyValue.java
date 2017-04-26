@@ -3,6 +3,7 @@ package com.realcomp.consul;
 import javax.ws.rs.client.Client;
 import java.io.IOException;
 import java.util.Objects;
+import java.util.Set;
 import java.util.Optional;
 
 public class ConsulKeyValue{
@@ -29,5 +30,9 @@ public class ConsulKeyValue{
 
     public void remove(String key) throws IOException{
         consul.remove(key);
+    }
+
+    public Set<String> keySet() throws IOException{
+        return consul.keySet();
     }
 }

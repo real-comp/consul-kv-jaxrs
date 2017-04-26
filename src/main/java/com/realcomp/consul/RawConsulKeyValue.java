@@ -101,10 +101,10 @@ public class RawConsulKeyValue{
     }
 
     public Set<String> keySet() throws IOException{
-        WebTarget target = jaxrs.target(url).path("v1/kv?keys");
+        WebTarget target = jaxrs.target(url).path("v1/kv/").queryParam("keys", "");
         Set<String> keys = new LinkedHashSet<>();
         Optional<String> json = Optional.empty();
-        Response response = target.request(MediaType.APPLICATION_JSON).delete();
+        Response response = target.request(MediaType.APPLICATION_JSON).get();
         try{
             switch (response.getStatus()){
                 case 200:
