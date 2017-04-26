@@ -29,7 +29,7 @@ Client jaxrs = ClientBuilder.newBuilder().register(new Authenticator("username",
 ConsulKeyValue consul = new ConsulKeyValue("http://my-consul-server.com", jaxrs);
 ```
 
-If you are not storing Strings values, there is also a RawConsulKeyValue class that leaves the JSON 
+If you are not storing String values, there is also a RawConsulKeyValue class that leaves the JSON 
 parsing and Base64 decoding up to you.
 
 Any unexpected response is packaged as an IOException.
